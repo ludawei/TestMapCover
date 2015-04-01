@@ -73,6 +73,9 @@
 		EEE071E51ACA6ECF00577FF6 /* MapViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE071E41ACA6ECF00577FF6 /* MapViewController1.m */; };
 		EEE071E81ACA721300577FF6 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE071E71ACA721300577FF6 /* Util.m */; };
 		EEE071EB1ACA74D400577FF6 /* 24小时降水量预报.json in Resources */ = {isa = PBXBuildFile; fileRef = EEE071E91ACA74D400577FF6 /* 24小时降水量预报.json */; };
+		EEE375261ACBCD2900258C96 /* 51da13e2d273292f5710aece155c86b2ee02f4e8 in Resources */ = {isa = PBXBuildFile; fileRef = EEE375251ACBCD2900258C96 /* 51da13e2d273292f5710aece155c86b2ee02f4e8 */; };
+		EEE375281ACBCDDF00258C96 /* index.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE375271ACBCDDF00258C96 /* index.png */; };
+		EEE3752A1ACBD3EF00258C96 /* index1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE375291ACBD3EF00258C96 /* index1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +180,9 @@
 		EEE071E61ACA721300577FF6 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		EEE071E71ACA721300577FF6 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		EEE071E91ACA74D400577FF6 /* 24小时降水量预报.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "24小时降水量预报.json"; sourceTree = "<group>"; };
+		EEE375251ACBCD2900258C96 /* 51da13e2d273292f5710aece155c86b2ee02f4e8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 51da13e2d273292f5710aece155c86b2ee02f4e8; sourceTree = "<group>"; };
+		EEE375271ACBCDDF00258C96 /* index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index.png; sourceTree = "<group>"; };
+		EEE375291ACBD3EF00258C96 /* index1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +218,9 @@
 		EE3DBECE1A78B52A00495F8A = {
 			isa = PBXGroup;
 			children = (
+				EEE375291ACBD3EF00258C96 /* index1.png */,
+				EEE375271ACBCDDF00258C96 /* index.png */,
+				EEE375251ACBCD2900258C96 /* 51da13e2d273292f5710aece155c86b2ee02f4e8 */,
 				EE78DE4F1ACBBA9F00326929 /* CWMyPolyLineRenderer.h */,
 				EE78DE501ACBBA9F00326929 /* CWMyPolyLineRenderer.m */,
 				EE78DE4C1ACAA07D00326929 /* CWMyOverlayView.h */,
@@ -488,10 +497,12 @@
 				EEB82E841A7F11730052C33A /* 相对湿度14122008.000.txt in Resources */,
 				EEB82E9C1A7F404F0052C33A /* 24小时降雨量15012108.000.txt in Resources */,
 				EE63B52E1AA54F5C00728A78 /* 20150302170000_X2.png in Resources */,
+				EEE3752A1ACBD3EF00258C96 /* index1.png in Resources */,
 				EEB82E911A7F11730052C33A /* 强降雪落区预报14120108.024.txt in Resources */,
 				EE3DBEE21A78B52A00495F8A /* Main.storyboard in Resources */,
 				EE63B52C1AA53E1400728A78 /* 20150302170000.PNG in Resources */,
 				EEB82E931A7F11730052C33A /* 相对湿度14122008.000n.txt in Resources */,
+				EEE375261ACBCD2900258C96 /* 51da13e2d273292f5710aece155c86b2ee02f4e8 in Resources */,
 				EEB82E891A7F11730052C33A /* 霾预报haze092608.024-webmoctor.png in Resources */,
 				EEB82E8A1A7F11730052C33A /* 霾预报haze092608.024.png in Resources */,
 				EE3DBEE71A78B52A00495F8A /* LaunchScreen.xib in Resources */,
@@ -508,6 +519,7 @@
 				EEB82E921A7F11730052C33A /* 相对湿度14122008.000n.png in Resources */,
 				EEE071EB1ACA74D400577FF6 /* 24小时降水量预报.json in Resources */,
 				EE3DBF201A78B60C00495F8A /* LICENSE in Resources */,
+				EEE375281ACBCDDF00258C96 /* index.png in Resources */,
 				EEB82E901A7F11730052C33A /* 强降雪落区预报14120108.024.png in Resources */,
 				EEB82E8B1A7F11730052C33A /* 霾预报haze092608.024.txt in Resources */,
 				EEB82E8F1A7F11730052C33A /* 大风降温预报13101508.024.txt in Resources */,

@@ -17,6 +17,7 @@
 
 @property (nonatomic,strong) MKMapView *mapView;
 @property (nonatomic,strong) NSDictionary *dataInfo,*data;
+@property (nonatomic,strong) UIImageView *indexView;
 
 @end
 
@@ -48,8 +49,45 @@
         make.size.mas_equalTo(CGSizeMake(50, 50));
     }];
     
+#if 0
+    UIImage *indexImage = [UIImage imageNamed:@"index"];
+    CGFloat imgWidth = MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)*0.5;
+    
+    UIImageView *imgView = [UIImageView new];
+    imgView.image = indexImage;
+    [self.view addSubview:imgView];
+    [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(10);
+        make.bottom.mas_equalTo(-10);
+        make.width.mas_equalTo(imgWidth);
+        make.height.mas_equalTo(imgWidth*indexImage.size.height/indexImage.size.width);
+    }];
+#else
+    UIImage *indexImage = [UIImage imageNamed:@"index1"];
+    
+    UIImageView *imgView = [UIImageView new];
+    imgView.image = indexImage;
+    [self.view addSubview:imgView];
+    self.indexView = imgView;
+    [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+        make.width.mas_equalTo(self.view);
+    }];
+#endif
+    
+    
     [self initDataInfo];
     [self initData];
+}
+
+-(void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    
+    [self.indexView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.height.mas_equalTo(self.view.bounds.size.width*self.indexView.image.size.height/self.indexView.image.size.width);
+    }];
 }
 
 -(void)addAreasToMap
@@ -186,7 +224,7 @@
 
 -(void)initData
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5" ofType:nil];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"51da13e2d273292f5710aece155c86b2ee02f4e8" ofType:nil];
     NSData *jsonData = [NSData dataWithContentsOfFile:path];
     
     self.data = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil];

@@ -22,7 +22,7 @@
     CGContextSetLineJoin(context, kCGLineJoinRound);
     CGContextSetLineWidth(context, MKRoadWidthAtZoomScale(zoomScale)*self.lineWidth);
     
-    for (NSInteger i=0; i<self.polyline.pointCount-1; i=i+20) {
+    for (NSInteger i=0; i<self.polyline.pointCount-1; i=i+10) {
         
         CGPoint p2 = [self pointForMapPoint:self.polyline.points[i]];
         CGPoint p1 = [self pointForMapPoint:self.polyline.points[i+1]];
