@@ -1,0 +1,4 @@
+left_lon=70
+top_lat=60
+right_lon=150.053
+bottom_lat=-0.046501

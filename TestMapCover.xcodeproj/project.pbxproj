@@ -13,6 +13,66 @@
 		EE3DBEE41A78B52A00495F8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3DBEE31A78B52A00495F8A /* Images.xcassets */; };
 		EE3DBEE71A78B52A00495F8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3DBEE51A78B52A00495F8A /* LaunchScreen.xib */; };
 		EE3DBEF31A78B52A00495F8A /* TestMapCoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBEF21A78B52A00495F8A /* TestMapCoverTests.swift */; };
+		EE3DBF031A78B5AF00495F8A /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE3DBF011A78B5AF00495F8A /* AMap.bundle */; };
+		EE3DBF041A78B5AF00495F8A /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF021A78B5AF00495F8A /* MAMapKit.framework */; };
+		EE3DBF201A78B60C00495F8A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EE3DBF061A78B60C00495F8A /* LICENSE */; };
+		EE3DBF211A78B60C00495F8A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF091A78B60C00495F8A /* MASCompositeConstraint.m */; };
+		EE3DBF221A78B60C00495F8A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF0C1A78B60C00495F8A /* MASConstraint.m */; };
+		EE3DBF231A78B60C00495F8A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF0E1A78B60C00495F8A /* MASConstraintMaker.m */; };
+		EE3DBF241A78B60C00495F8A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF101A78B60C00495F8A /* MASLayoutConstraint.m */; };
+		EE3DBF251A78B60C00495F8A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF141A78B60C00495F8A /* MASViewAttribute.m */; };
+		EE3DBF261A78B60C00495F8A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF161A78B60C00495F8A /* MASViewConstraint.m */; };
+		EE3DBF271A78B60C00495F8A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF181A78B60C00495F8A /* NSArray+MASAdditions.m */; };
+		EE3DBF281A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF1B1A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		EE3DBF291A78B60C00495F8A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF1D1A78B60C00495F8A /* View+MASAdditions.m */; };
+		EE3DBF2A1A78B60C00495F8A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF1F1A78B60C00495F8A /* README.md */; };
+		EE3DBF2C1A78BA1200495F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF2B1A78BA1200495F8A /* Foundation.framework */; };
+		EE3DBF2E1A78BA1A00495F8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF2D1A78BA1A00495F8A /* CoreGraphics.framework */; };
+		EE3DBF301A78BA1F00495F8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF2F1A78BA1F00495F8A /* QuartzCore.framework */; };
+		EE3DBF321A78BA2500495F8A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF311A78BA2500495F8A /* OpenGLES.framework */; };
+		EE3DBF341A78BA2E00495F8A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF331A78BA2E00495F8A /* CoreLocation.framework */; };
+		EE3DBF361A78BA3700495F8A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF351A78BA3700495F8A /* SystemConfiguration.framework */; };
+		EE3DBF381A78BA4000495F8A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF371A78BA4000495F8A /* libz.dylib */; };
+		EE3DBF3A1A78BA4800495F8A /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF391A78BA4800495F8A /* libstdc++.6.0.9.dylib */; };
+		EE3DBF3C1A78BA4D00495F8A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF3B1A78BA4D00495F8A /* Security.framework */; };
+		EE3DBF3E1A78BA5900495F8A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3DBF3D1A78BA5900495F8A /* CoreTelephony.framework */; };
+		EE3DBF401A78BDF800495F8A /* MyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3DBF3F1A78BDF800495F8A /* MyTableController.swift */; };
+		EE63B52C1AA53E1400728A78 /* 20150302170000.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EE63B52B1AA53E1400728A78 /* 20150302170000.PNG */; };
+		EE63B52E1AA54F5C00728A78 /* 20150302170000_X2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE63B52D1AA54F5C00728A78 /* 20150302170000_X2.png */; };
+		EE63B5301AA54F6500728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR_X2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE63B52F1AA54F6500728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR_X2.png */; };
+		EE63B5321AA54F9C00728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR.png in Resources */ = {isa = PBXBuildFile; fileRef = EE63B5311AA54F9C00728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR.png */; };
+		EE78DE491ACA8CEC00326929 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78DE481ACA8CEC00326929 /* MapKit.framework */; };
+		EE78DE4B1ACA91C900326929 /* d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5 in Resources */ = {isa = PBXBuildFile; fileRef = EE78DE4A1ACA91C900326929 /* d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5 */; };
+		EE78DE4E1ACAA07D00326929 /* CWMyOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78DE4D1ACAA07D00326929 /* CWMyOverlayView.m */; };
+		EE78DE511ACBBA9F00326929 /* CWMyPolyLineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78DE501ACBBA9F00326929 /* CWMyPolyLineRenderer.m */; };
+		EEB82E811A7F11730052C33A /* 温度14122008.000.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E6D1A7F11730052C33A /* 温度14122008.000.png */; };
+		EEB82E821A7F11730052C33A /* 温度14122008.000.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E6E1A7F11730052C33A /* 温度14122008.000.txt */; };
+		EEB82E831A7F11730052C33A /* 相对湿度14122008.000.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E6F1A7F11730052C33A /* 相对湿度14122008.000.png */; };
+		EEB82E841A7F11730052C33A /* 相对湿度14122008.000.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E701A7F11730052C33A /* 相对湿度14122008.000.txt */; };
+		EEB82E851A7F11730052C33A /* 空气污染预报kw15011920.024-webmoctor.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E711A7F11730052C33A /* 空气污染预报kw15011920.024-webmoctor.png */; };
+		EEB82E861A7F11730052C33A /* 空气污染预报kw15011920.024.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E721A7F11730052C33A /* 空气污染预报kw15011920.024.png */; };
+		EEB82E871A7F11730052C33A /* 空气污染预报kw15011920.024.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E731A7F11730052C33A /* 空气污染预报kw15011920.024.txt */; };
+		EEB82E881A7F11730052C33A /* 空气污染预报kw15011920.024_无抠图.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E741A7F11730052C33A /* 空气污染预报kw15011920.024_无抠图.png */; };
+		EEB82E891A7F11730052C33A /* 霾预报haze092608.024-webmoctor.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E751A7F11730052C33A /* 霾预报haze092608.024-webmoctor.png */; };
+		EEB82E8A1A7F11730052C33A /* 霾预报haze092608.024.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E761A7F11730052C33A /* 霾预报haze092608.024.png */; };
+		EEB82E8B1A7F11730052C33A /* 霾预报haze092608.024.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E771A7F11730052C33A /* 霾预报haze092608.024.txt */; };
+		EEB82E8C1A7F11730052C33A /* 24小时变温15012114.000.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E791A7F11730052C33A /* 24小时变温15012114.000.png */; };
+		EEB82E8D1A7F11730052C33A /* 24小时变温15012114.000.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E7A1A7F11730052C33A /* 24小时变温15012114.000.txt */; };
+		EEB82E8E1A7F11730052C33A /* 大风降温预报13101508.024.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E7B1A7F11730052C33A /* 大风降温预报13101508.024.png */; };
+		EEB82E8F1A7F11730052C33A /* 大风降温预报13101508.024.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E7C1A7F11730052C33A /* 大风降温预报13101508.024.txt */; };
+		EEB82E901A7F11730052C33A /* 强降雪落区预报14120108.024.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E7D1A7F11730052C33A /* 强降雪落区预报14120108.024.png */; };
+		EEB82E911A7F11730052C33A /* 强降雪落区预报14120108.024.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E7E1A7F11730052C33A /* 强降雪落区预报14120108.024.txt */; };
+		EEB82E921A7F11730052C33A /* 相对湿度14122008.000n.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E7F1A7F11730052C33A /* 相对湿度14122008.000n.png */; };
+		EEB82E931A7F11730052C33A /* 相对湿度14122008.000n.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E801A7F11730052C33A /* 相对湿度14122008.000n.txt */; };
+		EEB82E971A7F2AB60052C33A /* MyOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB82E951A7F2AB60052C33A /* MyOverlay.m */; };
+		EEB82E981A7F2AB60052C33A /* MyOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB82E961A7F2AB60052C33A /* MyOverlayView.swift */; };
+		EEB82E9B1A7F404F0052C33A /* 24小时降雨量15012108.000.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E991A7F404F0052C33A /* 24小时降雨量15012108.000.png */; };
+		EEB82E9C1A7F404F0052C33A /* 24小时降雨量15012108.000.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E9A1A7F404F0052C33A /* 24小时降雨量15012108.000.txt */; };
+		EEB82EA01A7F46BF0052C33A /* 15012108.000.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB82E9F1A7F46BF0052C33A /* 15012108.000.png */; };
+		EEB82EAC1A7F5DEE0052C33A /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB82EAB1A7F5DEE0052C33A /* MKMapView+ZoomLevel.m */; };
+		EEE071E51ACA6ECF00577FF6 /* MapViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE071E41ACA6ECF00577FF6 /* MapViewController1.m */; };
+		EEE071E81ACA721300577FF6 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE071E71ACA721300577FF6 /* Util.m */; };
+		EEE071EB1ACA74D400577FF6 /* 24小时降水量预报.json in Resources */ = {isa = PBXBuildFile; fileRef = EEE071E91ACA74D400577FF6 /* 24小时降水量预报.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +96,87 @@
 		EE3DBEEC1A78B52A00495F8A /* TestMapCoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMapCoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3DBEF11A78B52A00495F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3DBEF21A78B52A00495F8A /* TestMapCoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMapCoverTests.swift; sourceTree = "<group>"; };
+		EE3DBEFC1A78B53D00495F8A /* TestMapCover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMapCover-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE3DBF011A78B5AF00495F8A /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		EE3DBF021A78B5AF00495F8A /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		EE3DBF061A78B60C00495F8A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EE3DBF081A78B60C00495F8A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EE3DBF091A78B60C00495F8A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EE3DBF0A1A78B60C00495F8A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EE3DBF0B1A78B60C00495F8A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EE3DBF0C1A78B60C00495F8A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		EE3DBF0D1A78B60C00495F8A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		EE3DBF0E1A78B60C00495F8A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		EE3DBF0F1A78B60C00495F8A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		EE3DBF101A78B60C00495F8A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EE3DBF111A78B60C00495F8A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		EE3DBF121A78B60C00495F8A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		EE3DBF131A78B60C00495F8A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		EE3DBF141A78B60C00495F8A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		EE3DBF151A78B60C00495F8A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		EE3DBF161A78B60C00495F8A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		EE3DBF171A78B60C00495F8A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		EE3DBF181A78B60C00495F8A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		EE3DBF191A78B60C00495F8A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EE3DBF1A1A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EE3DBF1B1A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		EE3DBF1C1A78B60C00495F8A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		EE3DBF1D1A78B60C00495F8A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		EE3DBF1E1A78B60C00495F8A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EE3DBF1F1A78B60C00495F8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE3DBF2B1A78BA1200495F8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE3DBF2D1A78BA1A00495F8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE3DBF2F1A78BA1F00495F8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE3DBF311A78BA2500495F8A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EE3DBF331A78BA2E00495F8A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE3DBF351A78BA3700495F8A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE3DBF371A78BA4000495F8A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EE3DBF391A78BA4800495F8A /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		EE3DBF3B1A78BA4D00495F8A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EE3DBF3D1A78BA5900495F8A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EE3DBF3F1A78BDF800495F8A /* MyTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableController.swift; sourceTree = "<group>"; };
+		EE63B52B1AA53E1400728A78 /* 20150302170000.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20150302170000.PNG; sourceTree = "<group>"; };
+		EE63B52D1AA54F5C00728A78 /* 20150302170000_X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20150302170000_X2.png; sourceTree = "<group>"; };
+		EE63B52F1AA54F6500728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR_X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IR_CLOUD_FY2F_201503021700_WEBMECTOR_X2.png; sourceTree = "<group>"; };
+		EE63B5311AA54F9C00728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IR_CLOUD_FY2F_201503021700_WEBMECTOR.png; sourceTree = "<group>"; };
+		EE78DE481ACA8CEC00326929 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EE78DE4A1ACA91C900326929 /* d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5; sourceTree = "<group>"; };
+		EE78DE4C1ACAA07D00326929 /* CWMyOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMyOverlayView.h; sourceTree = "<group>"; };
+		EE78DE4D1ACAA07D00326929 /* CWMyOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMyOverlayView.m; sourceTree = "<group>"; };
+		EE78DE4F1ACBBA9F00326929 /* CWMyPolyLineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMyPolyLineRenderer.h; sourceTree = "<group>"; };
+		EE78DE501ACBBA9F00326929 /* CWMyPolyLineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMyPolyLineRenderer.m; sourceTree = "<group>"; };
+		EEB82E6D1A7F11730052C33A /* 温度14122008.000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "温度14122008.000.png"; sourceTree = "<group>"; };
+		EEB82E6E1A7F11730052C33A /* 温度14122008.000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "温度14122008.000.txt"; sourceTree = "<group>"; };
+		EEB82E6F1A7F11730052C33A /* 相对湿度14122008.000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相对湿度14122008.000.png"; sourceTree = "<group>"; };
+		EEB82E701A7F11730052C33A /* 相对湿度14122008.000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "相对湿度14122008.000.txt"; sourceTree = "<group>"; };
+		EEB82E711A7F11730052C33A /* 空气污染预报kw15011920.024-webmoctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空气污染预报kw15011920.024-webmoctor.png"; sourceTree = "<group>"; };
+		EEB82E721A7F11730052C33A /* 空气污染预报kw15011920.024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空气污染预报kw15011920.024.png"; sourceTree = "<group>"; };
+		EEB82E731A7F11730052C33A /* 空气污染预报kw15011920.024.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "空气污染预报kw15011920.024.txt"; sourceTree = "<group>"; };
+		EEB82E741A7F11730052C33A /* 空气污染预报kw15011920.024_无抠图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空气污染预报kw15011920.024_无抠图.png"; sourceTree = "<group>"; };
+		EEB82E751A7F11730052C33A /* 霾预报haze092608.024-webmoctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "霾预报haze092608.024-webmoctor.png"; sourceTree = "<group>"; };
+		EEB82E761A7F11730052C33A /* 霾预报haze092608.024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "霾预报haze092608.024.png"; sourceTree = "<group>"; };
+		EEB82E771A7F11730052C33A /* 霾预报haze092608.024.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "霾预报haze092608.024.txt"; sourceTree = "<group>"; };
+		EEB82E791A7F11730052C33A /* 24小时变温15012114.000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24小时变温15012114.000.png"; sourceTree = "<group>"; };
+		EEB82E7A1A7F11730052C33A /* 24小时变温15012114.000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "24小时变温15012114.000.txt"; sourceTree = "<group>"; };
+		EEB82E7B1A7F11730052C33A /* 大风降温预报13101508.024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大风降温预报13101508.024.png"; sourceTree = "<group>"; };
+		EEB82E7C1A7F11730052C33A /* 大风降温预报13101508.024.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大风降温预报13101508.024.txt"; sourceTree = "<group>"; };
+		EEB82E7D1A7F11730052C33A /* 强降雪落区预报14120108.024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "强降雪落区预报14120108.024.png"; sourceTree = "<group>"; };
+		EEB82E7E1A7F11730052C33A /* 强降雪落区预报14120108.024.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "强降雪落区预报14120108.024.txt"; sourceTree = "<group>"; };
+		EEB82E7F1A7F11730052C33A /* 相对湿度14122008.000n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相对湿度14122008.000n.png"; sourceTree = "<group>"; };
+		EEB82E801A7F11730052C33A /* 相对湿度14122008.000n.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "相对湿度14122008.000n.txt"; sourceTree = "<group>"; };
+		EEB82E941A7F2AB60052C33A /* MyOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOverlay.h; sourceTree = "<group>"; };
+		EEB82E951A7F2AB60052C33A /* MyOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOverlay.m; sourceTree = "<group>"; };
+		EEB82E961A7F2AB60052C33A /* MyOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOverlayView.swift; sourceTree = "<group>"; };
+		EEB82E991A7F404F0052C33A /* 24小时降雨量15012108.000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24小时降雨量15012108.000.png"; sourceTree = "<group>"; };
+		EEB82E9A1A7F404F0052C33A /* 24小时降雨量15012108.000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "24小时降雨量15012108.000.txt"; sourceTree = "<group>"; };
+		EEB82E9F1A7F46BF0052C33A /* 15012108.000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15012108.000.png; sourceTree = "<group>"; };
+		EEB82EAA1A7F5DEE0052C33A /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		EEB82EAB1A7F5DEE0052C33A /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		EEE071E31ACA6ECF00577FF6 /* MapViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController1.h; sourceTree = "<group>"; };
+		EEE071E41ACA6ECF00577FF6 /* MapViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController1.m; sourceTree = "<group>"; };
+		EEE071E61ACA721300577FF6 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		EEE071E71ACA721300577FF6 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		EEE071E91ACA74D400577FF6 /* 24小时降水量预报.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "24小时降水量预报.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +184,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3DBF3E1A78BA5900495F8A /* CoreTelephony.framework in Frameworks */,
+				EE3DBF3C1A78BA4D00495F8A /* Security.framework in Frameworks */,
+				EE3DBF3A1A78BA4800495F8A /* libstdc++.6.0.9.dylib in Frameworks */,
+				EE3DBF381A78BA4000495F8A /* libz.dylib in Frameworks */,
+				EE3DBF361A78BA3700495F8A /* SystemConfiguration.framework in Frameworks */,
+				EE3DBF341A78BA2E00495F8A /* CoreLocation.framework in Frameworks */,
+				EE3DBF321A78BA2500495F8A /* OpenGLES.framework in Frameworks */,
+				EE3DBF301A78BA1F00495F8A /* QuartzCore.framework in Frameworks */,
+				EE3DBF2E1A78BA1A00495F8A /* CoreGraphics.framework in Frameworks */,
+				EE3DBF2C1A78BA1200495F8A /* Foundation.framework in Frameworks */,
+				EE78DE491ACA8CEC00326929 /* MapKit.framework in Frameworks */,
+				EE3DBF041A78B5AF00495F8A /* MAMapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +212,34 @@
 		EE3DBECE1A78B52A00495F8A = {
 			isa = PBXGroup;
 			children = (
+				EE78DE4F1ACBBA9F00326929 /* CWMyPolyLineRenderer.h */,
+				EE78DE501ACBBA9F00326929 /* CWMyPolyLineRenderer.m */,
+				EE78DE4C1ACAA07D00326929 /* CWMyOverlayView.h */,
+				EE78DE4D1ACAA07D00326929 /* CWMyOverlayView.m */,
+				EE78DE4A1ACA91C900326929 /* d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5 */,
+				EE78DE481ACA8CEC00326929 /* MapKit.framework */,
+				EEE071E91ACA74D400577FF6 /* 24小时降水量预报.json */,
+				EEE071E61ACA721300577FF6 /* Util.h */,
+				EEE071E71ACA721300577FF6 /* Util.m */,
+				EEB82EAA1A7F5DEE0052C33A /* MKMapView+ZoomLevel.h */,
+				EEB82EAB1A7F5DEE0052C33A /* MKMapView+ZoomLevel.m */,
+				EE3DBF411A78C56C00495F8A /* fordawei */,
+				EE3DBF3D1A78BA5900495F8A /* CoreTelephony.framework */,
+				EE3DBF3B1A78BA4D00495F8A /* Security.framework */,
+				EE3DBF391A78BA4800495F8A /* libstdc++.6.0.9.dylib */,
+				EE3DBF371A78BA4000495F8A /* libz.dylib */,
+				EE3DBF351A78BA3700495F8A /* SystemConfiguration.framework */,
+				EE3DBF331A78BA2E00495F8A /* CoreLocation.framework */,
+				EE3DBF311A78BA2500495F8A /* OpenGLES.framework */,
+				EE3DBF2F1A78BA1F00495F8A /* QuartzCore.framework */,
+				EE3DBF2D1A78BA1A00495F8A /* CoreGraphics.framework */,
+				EE3DBF2B1A78BA1200495F8A /* Foundation.framework */,
+				EE3DBF051A78B60C00495F8A /* Masonry */,
+				EE3DBF001A78B5AF00495F8A /* MAMap3d */,
 				EE3DBED91A78B52A00495F8A /* TestMapCover */,
 				EE3DBEEF1A78B52A00495F8A /* TestMapCoverTests */,
 				EE3DBED81A78B52A00495F8A /* Products */,
+				EE3DBEFC1A78B53D00495F8A /* TestMapCover-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +255,18 @@
 		EE3DBED91A78B52A00495F8A /* TestMapCover */ = {
 			isa = PBXGroup;
 			children = (
+				EEB82E941A7F2AB60052C33A /* MyOverlay.h */,
+				EEB82E951A7F2AB60052C33A /* MyOverlay.m */,
+				EEB82E961A7F2AB60052C33A /* MyOverlayView.swift */,
 				EE3DBEDC1A78B52A00495F8A /* AppDelegate.swift */,
 				EE3DBEDE1A78B52A00495F8A /* ViewController.swift */,
 				EE3DBEE01A78B52A00495F8A /* Main.storyboard */,
 				EE3DBEE31A78B52A00495F8A /* Images.xcassets */,
 				EE3DBEE51A78B52A00495F8A /* LaunchScreen.xib */,
 				EE3DBEDA1A78B52A00495F8A /* Supporting Files */,
+				EE3DBF3F1A78BDF800495F8A /* MyTableController.swift */,
+				EEE071E31ACA6ECF00577FF6 /* MapViewController1.h */,
+				EEE071E41ACA6ECF00577FF6 /* MapViewController1.m */,
 			);
 			path = TestMapCover;
 			sourceTree = "<group>";
@@ -110,6 +294,104 @@
 				EE3DBEF11A78B52A00495F8A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE3DBF001A78B5AF00495F8A /* MAMap3d */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DBF011A78B5AF00495F8A /* AMap.bundle */,
+				EE3DBF021A78B5AF00495F8A /* MAMapKit.framework */,
+			);
+			path = MAMap3d;
+			sourceTree = "<group>";
+		};
+		EE3DBF051A78B60C00495F8A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DBF061A78B60C00495F8A /* LICENSE */,
+				EE3DBF071A78B60C00495F8A /* Masonry */,
+				EE3DBF1F1A78B60C00495F8A /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		EE3DBF071A78B60C00495F8A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DBF081A78B60C00495F8A /* MASCompositeConstraint.h */,
+				EE3DBF091A78B60C00495F8A /* MASCompositeConstraint.m */,
+				EE3DBF0A1A78B60C00495F8A /* MASConstraint+Private.h */,
+				EE3DBF0B1A78B60C00495F8A /* MASConstraint.h */,
+				EE3DBF0C1A78B60C00495F8A /* MASConstraint.m */,
+				EE3DBF0D1A78B60C00495F8A /* MASConstraintMaker.h */,
+				EE3DBF0E1A78B60C00495F8A /* MASConstraintMaker.m */,
+				EE3DBF0F1A78B60C00495F8A /* MASLayoutConstraint.h */,
+				EE3DBF101A78B60C00495F8A /* MASLayoutConstraint.m */,
+				EE3DBF111A78B60C00495F8A /* Masonry.h */,
+				EE3DBF121A78B60C00495F8A /* MASUtilities.h */,
+				EE3DBF131A78B60C00495F8A /* MASViewAttribute.h */,
+				EE3DBF141A78B60C00495F8A /* MASViewAttribute.m */,
+				EE3DBF151A78B60C00495F8A /* MASViewConstraint.h */,
+				EE3DBF161A78B60C00495F8A /* MASViewConstraint.m */,
+				EE3DBF171A78B60C00495F8A /* NSArray+MASAdditions.h */,
+				EE3DBF181A78B60C00495F8A /* NSArray+MASAdditions.m */,
+				EE3DBF191A78B60C00495F8A /* NSArray+MASShorthandAdditions.h */,
+				EE3DBF1A1A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EE3DBF1B1A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				EE3DBF1C1A78B60C00495F8A /* View+MASAdditions.h */,
+				EE3DBF1D1A78B60C00495F8A /* View+MASAdditions.m */,
+				EE3DBF1E1A78B60C00495F8A /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		EE3DBF411A78C56C00495F8A /* fordawei */ = {
+			isa = PBXGroup;
+			children = (
+				EE63B5311AA54F9C00728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR.png */,
+				EE63B52F1AA54F6500728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR_X2.png */,
+				EE63B52D1AA54F5C00728A78 /* 20150302170000_X2.png */,
+				EE63B52B1AA53E1400728A78 /* 20150302170000.PNG */,
+				EEB82E6C1A7F11730052C33A /* 0129 */,
+				EEB82E781A7F11730052C33A /* 补充20150202 */,
+			);
+			path = fordawei;
+			sourceTree = "<group>";
+		};
+		EEB82E6C1A7F11730052C33A /* 0129 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB82E6D1A7F11730052C33A /* 温度14122008.000.png */,
+				EEB82E6E1A7F11730052C33A /* 温度14122008.000.txt */,
+				EEB82E6F1A7F11730052C33A /* 相对湿度14122008.000.png */,
+				EEB82E701A7F11730052C33A /* 相对湿度14122008.000.txt */,
+				EEB82E711A7F11730052C33A /* 空气污染预报kw15011920.024-webmoctor.png */,
+				EEB82E721A7F11730052C33A /* 空气污染预报kw15011920.024.png */,
+				EEB82E731A7F11730052C33A /* 空气污染预报kw15011920.024.txt */,
+				EEB82E741A7F11730052C33A /* 空气污染预报kw15011920.024_无抠图.png */,
+				EEB82E751A7F11730052C33A /* 霾预报haze092608.024-webmoctor.png */,
+				EEB82E761A7F11730052C33A /* 霾预报haze092608.024.png */,
+				EEB82E771A7F11730052C33A /* 霾预报haze092608.024.txt */,
+			);
+			path = 0129;
+			sourceTree = "<group>";
+		};
+		EEB82E781A7F11730052C33A /* 补充20150202 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB82E9F1A7F46BF0052C33A /* 15012108.000.png */,
+				EEB82E991A7F404F0052C33A /* 24小时降雨量15012108.000.png */,
+				EEB82E9A1A7F404F0052C33A /* 24小时降雨量15012108.000.txt */,
+				EEB82E791A7F11730052C33A /* 24小时变温15012114.000.png */,
+				EEB82E7A1A7F11730052C33A /* 24小时变温15012114.000.txt */,
+				EEB82E7B1A7F11730052C33A /* 大风降温预报13101508.024.png */,
+				EEB82E7C1A7F11730052C33A /* 大风降温预报13101508.024.txt */,
+				EEB82E7D1A7F11730052C33A /* 强降雪落区预报14120108.024.png */,
+				EEB82E7E1A7F11730052C33A /* 强降雪落区预报14120108.024.txt */,
+				EEB82E7F1A7F11730052C33A /* 相对湿度14122008.000n.png */,
+				EEB82E801A7F11730052C33A /* 相对湿度14122008.000n.txt */,
+			);
+			path = "补充20150202";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +443,11 @@
 				TargetAttributes = {
 					EE3DBED61A78B52A00495F8A = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EE3DBEEB1A78B52A00495F8A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +479,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB82E851A7F11730052C33A /* 空气污染预报kw15011920.024-webmoctor.png in Resources */,
+				EEB82E8E1A7F11730052C33A /* 大风降温预报13101508.024.png in Resources */,
+				EEB82EA01A7F46BF0052C33A /* 15012108.000.png in Resources */,
+				EEB82E811A7F11730052C33A /* 温度14122008.000.png in Resources */,
+				EEB82E821A7F11730052C33A /* 温度14122008.000.txt in Resources */,
+				EEB82E9B1A7F404F0052C33A /* 24小时降雨量15012108.000.png in Resources */,
+				EEB82E841A7F11730052C33A /* 相对湿度14122008.000.txt in Resources */,
+				EEB82E9C1A7F404F0052C33A /* 24小时降雨量15012108.000.txt in Resources */,
+				EE63B52E1AA54F5C00728A78 /* 20150302170000_X2.png in Resources */,
+				EEB82E911A7F11730052C33A /* 强降雪落区预报14120108.024.txt in Resources */,
 				EE3DBEE21A78B52A00495F8A /* Main.storyboard in Resources */,
+				EE63B52C1AA53E1400728A78 /* 20150302170000.PNG in Resources */,
+				EEB82E931A7F11730052C33A /* 相对湿度14122008.000n.txt in Resources */,
+				EEB82E891A7F11730052C33A /* 霾预报haze092608.024-webmoctor.png in Resources */,
+				EEB82E8A1A7F11730052C33A /* 霾预报haze092608.024.png in Resources */,
 				EE3DBEE71A78B52A00495F8A /* LaunchScreen.xib in Resources */,
+				EE3DBF031A78B5AF00495F8A /* AMap.bundle in Resources */,
+				EE63B5301AA54F6500728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR_X2.png in Resources */,
+				EEB82E861A7F11730052C33A /* 空气污染预报kw15011920.024.png in Resources */,
+				EE78DE4B1ACA91C900326929 /* d4306cdfeb40787d89b7be3e63c2a3cdee10b5f5 in Resources */,
+				EEB82E831A7F11730052C33A /* 相对湿度14122008.000.png in Resources */,
+				EEB82E8D1A7F11730052C33A /* 24小时变温15012114.000.txt in Resources */,
 				EE3DBEE41A78B52A00495F8A /* Images.xcassets in Resources */,
+				EEB82E8C1A7F11730052C33A /* 24小时变温15012114.000.png in Resources */,
+				EEB82E881A7F11730052C33A /* 空气污染预报kw15011920.024_无抠图.png in Resources */,
+				EEB82E871A7F11730052C33A /* 空气污染预报kw15011920.024.txt in Resources */,
+				EEB82E921A7F11730052C33A /* 相对湿度14122008.000n.png in Resources */,
+				EEE071EB1ACA74D400577FF6 /* 24小时降水量预报.json in Resources */,
+				EE3DBF201A78B60C00495F8A /* LICENSE in Resources */,
+				EEB82E901A7F11730052C33A /* 强降雪落区预报14120108.024.png in Resources */,
+				EEB82E8B1A7F11730052C33A /* 霾预报haze092608.024.txt in Resources */,
+				EEB82E8F1A7F11730052C33A /* 大风降温预报13101508.024.txt in Resources */,
+				EE63B5321AA54F9C00728A78 /* IR_CLOUD_FY2F_201503021700_WEBMECTOR.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +529,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB82E971A7F2AB60052C33A /* MyOverlay.m in Sources */,
+				EE3DBF221A78B60C00495F8A /* MASConstraint.m in Sources */,
+				EE3DBF251A78B60C00495F8A /* MASViewAttribute.m in Sources */,
+				EE3DBF401A78BDF800495F8A /* MyTableController.swift in Sources */,
+				EE78DE4E1ACAA07D00326929 /* CWMyOverlayView.m in Sources */,
+				EE3DBF231A78B60C00495F8A /* MASConstraintMaker.m in Sources */,
+				EE3DBF281A78B60C00495F8A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				EE3DBEDF1A78B52A00495F8A /* ViewController.swift in Sources */,
+				EE3DBF211A78B60C00495F8A /* MASCompositeConstraint.m in Sources */,
+				EE3DBF2A1A78B60C00495F8A /* README.md in Sources */,
+				EEB82EAC1A7F5DEE0052C33A /* MKMapView+ZoomLevel.m in Sources */,
+				EE3DBF291A78B60C00495F8A /* View+MASAdditions.m in Sources */,
+				EE78DE511ACBBA9F00326929 /* CWMyPolyLineRenderer.m in Sources */,
+				EEE071E51ACA6ECF00577FF6 /* MapViewController1.m in Sources */,
+				EE3DBF271A78B60C00495F8A /* NSArray+MASAdditions.m in Sources */,
+				EE3DBF241A78B60C00495F8A /* MASLayoutConstraint.m in Sources */,
+				EEB82E981A7F2AB60052C33A /* MyOverlayView.swift in Sources */,
 				EE3DBEDD1A78B52A00495F8A /* AppDelegate.swift in Sources */,
+				EE3DBF261A78B60C00495F8A /* MASViewConstraint.m in Sources */,
+				EEE071E81ACA721300577FF6 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +673,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MAMap3d",
+				);
 				INFOPLIST_FILE = TestMapCover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8168e9fd-0926-4276-b0af-5aaf0de5e682";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestMapCover-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +692,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MAMap3d",
+				);
 				INFOPLIST_FILE = TestMapCover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8168e9fd-0926-4276-b0af-5aaf0de5e682";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestMapCover-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +759,7 @@
 				EE3DBEF81A78B52A00495F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE3DBEF91A78B52A00495F8A /* Build configuration list for PBXNativeTarget "TestMapCoverTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +768,7 @@
 				EE3DBEFB1A78B52A00495F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
